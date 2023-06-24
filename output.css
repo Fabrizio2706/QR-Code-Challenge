@@ -18,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: #e5e7eb;
+  border-color: currentColor;
   /* 2 */
 }
 
@@ -524,87 +524,80 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container{
+.mt-0{
+  margin-top: 0px;
+}
+
+.mt-0\.5{
+  margin-top: 0.125rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-2\.5{
+  margin-top: 0.625rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.w-full{
   width: 100%;
 }
 
-@media (min-width: 640px){
-  .container{
-    max-width: 640px;
-  }
+.flex-col{
+  flex-direction: column;
 }
 
-@media (min-width: 768px){
-  .container{
-    max-width: 768px;
-  }
+.items-center{
+  align-items: center;
 }
 
-@media (min-width: 1024px){
-  .container{
-    max-width: 1024px;
-  }
+.justify-center{
+  justify-content: center;
 }
 
-@media (min-width: 1280px){
-  .container{
-    max-width: 1280px;
-  }
+.rounded-xl{
+  border-radius: 0.75rem;
 }
 
-@media (min-width: 1536px){
-  .container{
-    max-width: 1536px;
-  }
+.p-5{
+  padding: 1.25rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.text-center{
+  text-align: center;
 }
 
-:root {
-  --White: hsl(0, 0%, 100%);
-  --Light-gray: hsl(212, 45%, 89%);
-  --Gray-blue: hsl(220, 15%, 55%);
-  --Dark-blue: hsl(218, 44%, 22%);
+.font-outfit{
+  font-family: outfit, sans-serif;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.shadow-lg{
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 img{
   max-width: 100%;
-}
-
-body {
-  font-family: "outfit", "sans-serif";
-  font-size: 14px;
-  background-color: var(--Light-gray);
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh
-}
-
-.container{
-  background-color: var(--White);
-  padding: 1.25rem;
-  border-radius: 10px;
-  box-shadow: 0.75px 0.75px 10px var(--Gray-blue);
-}
-
-.container img{
-  border-radius: 10px;
-  box-shadow: 0.75px 0.75px 7.5px var(--Gray-blue);
-}
-
-.container h1{
-  text-align: center;
-}
-
-.container p{
-  text-align: center;
-  margin-top: 2.5px;
 }
 
 .attribution {
