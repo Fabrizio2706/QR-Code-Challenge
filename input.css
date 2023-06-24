@@ -3,24 +3,3 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-img{
-    max-width: 100%;
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center; 
-    margin-top: 10px;
-}
-    
-
-.attribution a {
-    color: hsl(228, 45%, 44%); 
-}
-
-@media (min-width: 500px) {
-    .container {
-      width: 400px;
-    }
-}
